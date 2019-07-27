@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Laminated Gold | Dasboard')
+@section('title', 'Mi Tienda Hoy | Dasboard')
 
 @section('body-class', 'profile-page')
 

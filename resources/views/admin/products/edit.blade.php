@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Bienvenido a Laminated Gold')
+@section('title', 'Bienvenido a Mi Tienda Hoy')
 
 @section('body-class', 'product-page')
 

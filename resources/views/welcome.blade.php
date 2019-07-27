@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Bienvenido a Laminated Gold')
+@section('title', 'Mi Tienda Hoy')
 
 @section('body-class', 'landing-page')
 
@@ -28,9 +28,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="title">Bienvenido a su tienda de Oro Laminado</h1>
-                <h4>Realiza sus pedidos en linea y te contactaremos para coordinar la entrega</h4>
-                <br />
+                <h1 class="title">Bienvenido a:<br>mitiendahoy.com</h1>
+                <h4>Realiza sus pedidos en linea y te contactaremos para coordinar la entrega</h4>                
                 <a href="#" class="btn btn-danger btn-raised btn-lg">
                     <i class="fa fa-play"></i> ¿Qué es Oro Laminado?
                 </a>
@@ -119,7 +118,7 @@
                             <div class="col-md-6">
                                 <div class="form-group label-floating">
                                     <label class="control-label">Nombre</label>
-                                    <input type="email" class="form-control">
+                                    <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-6">
