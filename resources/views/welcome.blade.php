@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Mi Tienda Hoy')
+@section('title', config('app.name'))
 
 @section('body-class', 'landing-page')
 
@@ -16,7 +16,7 @@
         display:         flex;
         flex-wrap: wrap;
         }
-        .team .row > [class*='col-md-4'] {
+        .team .row > [class*='col-'] {
         display: flex;
         flex-direction: column;
         }
@@ -68,7 +68,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="title">Bienvenido a:<br>mitiendahoy.com</h1>
+                <h1 class="title">Bienvenido a: {{ config('app.name') }}</h1>
                 <h4>Realiza sus pedidos en linea y te contactaremos para coordinar la entrega</h4>                
                 <a href="#" class="btn btn-danger btn-raised btn-lg">
                     <i class="fa fa-play"></i> ¿Qué es Oro Laminado?
@@ -156,6 +156,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h2 class="text-center title">¿Aún no te has registrado?</h2>
                     <h4 class="text-center description">Regístrate ingresando tus datos básicos y podrás realizar tus pedidos a través de nuestro carrito de compras.  Si aún no te decides, de todas formas, con tu cuenta de usuario podrás hacer todas tus consultas sin compromiso.</h4>
+
                     <form class="contact-form">
                         <div class="row">
                             <div class="col-md-6">
@@ -185,6 +186,7 @@
                             </div>
                         </div>
                     </form>
+                    
                 </div>
             </div>
 
